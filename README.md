@@ -1,5 +1,5 @@
 # CaesarCipherPlus
-An upgrade on the traditional implementation on the Caesar's cipher problem in Python
+An upgrade on the traditional implementation of Caesar's cipher problem in Python
 
 Traditional Caesar's cipher works in 2 ways:
   - Receive an encrypted input and a shift key and the program produces a decrypted output (plaintext)
