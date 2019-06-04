@@ -254,13 +254,13 @@ class CiphertextMessage(Message):
 #Run Program
 #PlaintextMessage
 plaintext = PlaintextMessage('Random Phrase', 2)
-print('\nInput: ' + plaintext.get_message_text())
-print('\nOutput:', plaintext.get_message_text_encrypted())
+print('\nPlainText Input: ' + plaintext.get_message_text())
+print('\nCipher Output:', plaintext.get_message_text_encrypted())
 
 print('\n------')
 print('------')
 
 #CiphertextMessage
 ciphertext = CiphertextMessage(get_story_string())
-print('\nInput: ' + ciphertext.get_message_text())
-print('\nOutput:', ciphertext.decrypt_message())
+print('\nCipher Input: ' + ciphertext.get_message_text())
+print('\nPlainText Output:', ciphertext.decrypt_message())
