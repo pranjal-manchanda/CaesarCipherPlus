@@ -10,3 +10,5 @@ CaesarCipherPlus:
   - Program does not require a shift key to decrypt a message. This is more realistic since chances are that a user might not be given a shift key along with the encrypted message (kind of defeats the point of the encryption)
 
 <img src="images/testRun.PNG">
+
+**Problem found on MIT OCW*
